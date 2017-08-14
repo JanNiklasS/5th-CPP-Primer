@@ -50,3 +50,8 @@
 0
 0
 ```
+
+## Exercise 2.4
+>Write a program to check whether your predictions were correct. If not, study this section until you understand what the problem is.
+
+[Here](prog2_4.cpp) you go!
