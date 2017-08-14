@@ -21,7 +21,9 @@
 >To calculate a mortgage payment, what types would you use for the rate, principal, and payment? Explain why you selected each type.
 
 **Rate:** `double`, since it's a floating-type and more precise than `float`
+
 **Prinicpal:** `double`, since it's a floating-type and more precise than `float`
+
 **Payment:** `double`, since it's a floating-type and more precise than `float`
 
 ## Exercise 2.3
