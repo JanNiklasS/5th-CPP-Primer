@@ -16,3 +16,10 @@
 **`Float` and `double`**
 - Floating-point types, while `float` has little precision. Therfore it's recommended to use `double` right away. Furthermore is the additional space necessary for double-precision negligible and on some machines double-precision is even faster than single-precision
 - Size (depending on compiler, but C++ guarantees that its at least the stated values): `float` (single-precision floating-point) helds 6 significant digits (32 bits) and `double` (double-precision floating-point) helds 10 significant digits (64 bits)
+
+## Exercise 2.2
+>To calculate a mortgage payment, what types would you use for the rate, principal, and payment? Explain why you selected each type.
+
+**Rate:** `double`, since it's a floating-type and more precise than `float`
+**Prinicpal:** `double`, since it's a floating-type and more precise than `float`
+**Payment:** `double`, since it's a floating-type and more precise than `float`
