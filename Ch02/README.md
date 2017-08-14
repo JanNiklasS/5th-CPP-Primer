@@ -14,5 +14,5 @@
 - When using a signed and an unsigned type in a artithmetic operation, the signed type will be converted to a unsigned type
 
 **`Float` and `double`**
-- Floating-point types, while `float` has little precision. Therfore it's recommended to use `double` right away. Furthermore is the additional space necessary for double-precision negligible and on some machines double-precision is even faster than single-precision. 
+- Floating-point types, while `float` has little precision. Therfore it's recommended to use `double` right away. Furthermore is the additional space necessary for double-precision negligible and on some machines double-precision is even faster than single-precision
 - Size (depending on compiler, but C++ guarantees that its at least the stated values): `float` (single-precision floating-point) helds 6 significant digits (32 bits) and `double` (double-precision floating-point) helds 10 significant digits (64 bits)
