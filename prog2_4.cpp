@@ -16,4 +16,7 @@ int main() {
 	
 	std::cout << i - u << std::endl;	// 0
 	std::cout << u - i << std::endl;	// 0
+	
+	return 0;
+	
 }
