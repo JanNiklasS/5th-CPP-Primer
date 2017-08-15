@@ -58,15 +58,12 @@
 
 ## Exercise 2.5
 >Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:
->
+>```
 >(a) 'a', L'a', "a", L"a"
->
 >(b) 10, 10u, 10L, 10uL, 012, 0xC
->
 >(c) 3.14, 3.14f, 3.14L
->
 >(d) 10, 10u, 10., 10e-2
-
+>```
 (a) `char` (character literal), `wchar_t` (wide character literal), `string` (character string literal), `string` (wide characters string literal)
 
 (b) `int` (signed decimal integer literal), `int` (unsigned decimal integer literal), `long` (signed decimal long integer literal), `long` (unsigned decimal long integer literal), `int` (unsigned or signed octal integer literal), `int` (unsigned or signed hex integer literal)
