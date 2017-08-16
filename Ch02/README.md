@@ -71,3 +71,25 @@
 (c) `double` (signed decimal double-precision floating-point literal), `float` (signed decimal single-precision floating-point literal), `long double` (signed decimal extended-preciscion floating-point literal)
 
 (d) `int` (signed decimal integer literal), `int` (unsigned decimal integer literal), `double` (signed decimal double-precision floating-point literal), `double` (signed decimal double-precision floating-point literal)
+
+## Exercise 2.6
+>What, if any, are the differences between the following definitions:
+>```
+>int month = 9, day = 7;
+>int month = 09, day = 07;
+>```
+
+***First line:*** First and second literal is a decimal signed integer literal.
+***Second line:*** First literal is invalid, since it's octal (because of the 0) and the larger than 8. The second literal is an octal unsigned integer literal.
+
+## Exercise 2.7
+> What values do these literals represent? What type does each have?
+>```
+>(a) "Who goes with F\145rgus?\012"
+>
+>(b) 3.14e1L
+>
+>(c) 1024f
+>
+>(d) 3.14L
+>```
