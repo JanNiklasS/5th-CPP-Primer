@@ -91,3 +91,8 @@
 >(c) 1024f
 >(d) 3.14L
 >```
+
+(a) Who goes with Fergus? (character string literal, /145 = e , /012 = newline)
+(b) 31.4 ('long double', floating-point literal)
+(c) Error: invalid literal suffix 'f'; literal operator or literal operator template 'operator ""f' not found
+(d) 3.14 ('long double', floating-point literal)

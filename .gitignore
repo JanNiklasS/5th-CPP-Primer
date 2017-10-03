@@ -16,6 +16,8 @@
 
 *.exe
 
+testfile.cpp
+
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
