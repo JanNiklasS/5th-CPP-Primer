@@ -99,3 +99,8 @@
 (c) Error: invalid literal suffix 'f'; literal operator or literal operator template 'operator ""f' not found
 
 (d) 3.14 ('long double', floating-point literal)
+
+## Exercise 2.8
+>Using escape sequences, write a program to print 2M followed by a newline. Modify the program to print 2, then a tab, then an M, followed by a newline.
+
+[Here](prog2_8.cpp) you go!
