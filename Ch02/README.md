@@ -132,9 +132,7 @@ int i = 3.14;
 ```
 int i = (3.14);
 ```
-
 ...better to use `double`...
-
 ```
 double i = {3.14};
 ```
@@ -151,3 +149,15 @@ double salary = wage = 9999.99;
 ```
 
 (d) Legal, but value will be truncated
+
+## Exercise 2.10
+>What are the initial values, if any, of each of the following variables?
+>```
+>std::string global_str;
+>int global_int;
+>int main()
+>{
+>	int local_int;
+>	std::string local_str;
+>}
+>```
