@@ -28,7 +28,7 @@
 
 ## Exercise 2.3
 >What output will the following code produce?
->```
+>```cpp
 >unsigned u = 10, u2 = 42;
 >std::cout << u2 - u << std::endl;
 >std::cout << u - u2 << std::endl;
@@ -42,7 +42,7 @@
 >```
 
 **Output:** 
-```
+```cpp
 32
 4294967264
 32
@@ -58,7 +58,7 @@
 
 ## Exercise 2.5
 >Determine the type of each of the following literals. Explain the differences among the literals in each of the four examples:
->```
+>```cpp
 >(a) 'a', L'a', "a", L"a"
 >(b) 10, 10u, 10L, 10uL, 012, 0xC
 >(c) 3.14, 3.14f, 3.14L
@@ -74,7 +74,7 @@
 
 ## Exercise 2.6
 >What, if any, are the differences between the following definitions:
->```
+>```cpp
 >int month = 9, day = 7;
 >int month = 09, day = 07;
 >```
@@ -85,7 +85,7 @@
 
 ## Exercise 2.7
 > What values do these literals represent? What type does each have?
->```
+>```cpp
 >(a) "Who goes with F\145rgus?\012"
 >(b) 3.14e1L
 >(c) 1024f
@@ -107,7 +107,7 @@
 
 ## Exercise 2.9
 > Explain the following definitions. For those that are illegal, explain what’s wrong and how to correct it.
->```
+>```cpp
 >(a) std::cin >> int input_value;
 >(b) int i = { 3.14 };
 >(c) double salary = wage = 9999.99;
@@ -116,7 +116,7 @@
 
 (a) Error: 'input_value': undeclared identifier
 
-```
+```cpp
 int input_value = 0;
 std::cin >> input_value;
 ```
@@ -125,25 +125,25 @@ std::cin >> input_value;
 
 Possible to use `int` , but value will be truncated since literal is floating-point and not integer
 
-```
+```cpp
 int i = 3.14;
 ```
 ...or...
-```
+```cpp
 int i = (3.14);
 ```
 ...better to use `double`...
-```
+```cpp
 double i = {3.14};
 ```
 
 (c) Error: 'wage': undeclared identifier
 
-```
+```cpp
 double salary = 9999.99, wage = salary;
 ```
 ...or...
-```
+```cpp
 double wage;
 double salary = wage = 9999.99;
 ```
@@ -152,14 +152,14 @@ double salary = wage = 9999.99;
 
 ## Exercise 2.10
 >What are the initial values, if any, of each of the following variables?
-```
-     std::string global_str;
-     int global_int;
-     int main()
-     {
-	     int local_int;
-	     std::string local_str;
-     }
+```cpp
+std::string global_str;
+int global_int;
+int main()
+{
+	std local_int;
+	std::string local_str;
+}
 ```
 
 (a) 'std::string global_string' Initial value is: empty string
