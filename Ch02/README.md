@@ -120,14 +120,6 @@
 int input_value = 0;
 std::cin >> input_value;
 ```
-...or if within a class, class will automatically supply default value to object...
-```
-int main() {
-	int input_value;
-	std::cin >> input_value;
-	return 0;
-}
-```
 
 (b) Error: conversion from 'double' to 'int' requires a narrowing conversion
 
