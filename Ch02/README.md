@@ -104,3 +104,66 @@
 >Using escape sequences, write a program to print 2M followed by a newline. Modify the program to print 2, then a tab, then an M, followed by a newline.
 
 [Here](prog2_8.cpp) you go!
+
+## Exercise 2.9
+> Explain the following definitions. For those that are illegal, explain what’s wrong and how to correct it.
+>```
+>(a) std::cin >> int input_value;
+>(b) int i = { 3.14 };
+>(c) double salary = wage = 9999.99;
+>(d) int i = 3.14;
+>```
+
+(a) Error: 'input_value': undeclared identifier
+
+```
+	int input_value = 0;
+	std::cin >> input_value;
+```
+
+...or if within a class, class will automatically supply default value to object...
+
+```
+int main() {
+	int input_value;
+
+	std::cin >> input_value;
+
+	return 0;
+}
+```
+
+(b) Error: conversion from 'double' to 'int' requires a narrowing conversion
+
+Possible to use `int` , but value will be truncated since literal is floating-point and not integer
+
+```
+	int i = 3.14;
+```
+
+...or...
+
+```
+	int i = (3.14);
+```
+
+...better to use `double`...
+
+```
+	double i = {3.14};
+``
+
+(c) Error: 'wage': undeclared identifier
+
+```
+	double salary = 9999.99, wage = salary;
+```
+
+...or...
+
+```
+	double wage;
+	double salary = wage = 9999.99;
+```
+
+(d) Legal, but value will be truncated
