@@ -161,3 +161,8 @@ double salary = wage = 9999.99;
 	     std::string local_str;
      }
 ```
+
+(a) 'std::string global_string' Initial value is: empty string
+(b) 'int global_int' Initial value is: 0
+(c) 'int local_int' Initial value is: undefined value
+(d) 'std::string local_string' Initial value is: empty string
