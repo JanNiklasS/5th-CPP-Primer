@@ -120,9 +120,7 @@
 int input_value = 0;
 std::cin >> input_value;
 ```
-
 ...or if within a class, class will automatically supply default value to object...
-
 ```
 int main() {
 	int input_value;
@@ -130,7 +128,6 @@ int main() {
 	return 0;
 }
 ```
- 
 
 (b) Error: conversion from 'double' to 'int' requires a narrowing conversion
 
@@ -139,9 +136,7 @@ Possible to use `int` , but value will be truncated since literal is floating-po
 ```
 int i = 3.14;
 ```
-
 ...or...
-
 ```
 int i = (3.14);
 ```
@@ -151,20 +146,16 @@ int i = (3.14);
 ```
 double i = {3.14};
 ```
- 
 
 (c) Error: 'wage': undeclared identifier
 
 ```
 double salary = 9999.99, wage = salary;
 ```
-
 ...or...
-
 ```
 double wage;
 double salary = wage = 9999.99;
 ```
- 
 
 (d) Legal, but value will be truncated
