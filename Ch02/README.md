@@ -117,8 +117,8 @@
 (a) Error: 'input_value': undeclared identifier
 
 ```
-	int input_value = 0;
-	std::cin >> input_value;
+int input_value = 0;
+std::cin >> input_value;
 ```
 
 ...or if within a class, class will automatically supply default value to object...
@@ -126,9 +126,7 @@
 ```
 int main() {
 	int input_value;
-
 	std::cin >> input_value;
-
 	return 0;
 }
 ```
@@ -138,32 +136,32 @@ int main() {
 Possible to use `int` , but value will be truncated since literal is floating-point and not integer
 
 ```
-	int i = 3.14;
+int i = 3.14;
 ```
 
 ...or...
 
 ```
-	int i = (3.14);
+int i = (3.14);
 ```
 
 ...better to use `double`...
 
 ```
-	double i = {3.14};
-``
+double i = {3.14};
+```
 
 (c) Error: 'wage': undeclared identifier
 
 ```
-	double salary = 9999.99, wage = salary;
+double salary = 9999.99, wage = salary;
 ```
 
 ...or...
 
 ```
-	double wage;
-	double salary = wage = 9999.99;
+double wage;
+double salary = wage = 9999.99;
 ```
 
 (d) Legal, but value will be truncated
