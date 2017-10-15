@@ -152,15 +152,15 @@ double salary = wage = 9999.99;
 
 ## Exercise 2.10
 >What are the initial values, if any, of each of the following variables?
-```cpp
-std::string global_str;
-int global_int;
-int main()
-{
-	std local_int;
-	std::string local_str;
-}
-```
+>```cpp
+>std::string global_str;
+>int global_int;
+>int main()
+>{
+>	std local_int;
+>	std::string local_str;
+>}
+>```
 
 (a) `std::string global_string` Initial value is: empty string
 
