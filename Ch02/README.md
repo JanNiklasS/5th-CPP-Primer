@@ -106,7 +106,7 @@
 [Here](prog2_8.cpp) you go!
 
 ## Exercise 2.9
-> Explain the following definitions. For those that are illegal, explain what’s wrong and how to correct it.
+> Explain the following definitions. For those that are illegal, explain whatâ€™s wrong and how to correct it.
 >```
 >(a) std::cin >> int input_value;
 >(b) int i = { 3.14 };
@@ -152,7 +152,7 @@ double salary = wage = 9999.99;
 
 ## Exercise 2.10
 >What are the initial values, if any, of each of the following variables?
-```
+```cpp
      std::string global_str;
      int global_int;
      int main()
