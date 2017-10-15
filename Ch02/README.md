@@ -114,14 +114,14 @@
 >(d) int i = 3.14;
 >```
 
-(a) Error: 'input_value': undeclared identifier
+(a) Error: `input_value`: undeclared identifier
 
 ```cpp
 int input_value = 0;
 std::cin >> input_value;
 ```
 
-(b) Error: conversion from 'double' to 'int' requires a narrowing conversion
+(b) Error: conversion from `double` to `int` requires a narrowing conversion
 
 Possible to use `int` , but value will be truncated since literal is floating-point and not integer
 
@@ -137,7 +137,7 @@ int i = (3.14);
 double i = {3.14};
 ```
 
-(c) Error: 'wage': undeclared identifier
+(c) Error: `wage`: undeclared identifier
 
 ```cpp
 double salary = 9999.99, wage = salary;
