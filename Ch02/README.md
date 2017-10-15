@@ -131,6 +131,7 @@ int main() {
 }
 ```
 
+
 (b) Error: conversion from 'double' to 'int' requires a narrowing conversion
 
 Possible to use `int` , but value will be truncated since literal is floating-point and not integer
@@ -151,6 +152,7 @@ int i = (3.14);
 double i = {3.14};
 ```
 
+
 (c) Error: 'wage': undeclared identifier
 
 ```
@@ -163,5 +165,6 @@ double salary = 9999.99, wage = salary;
 double wage;
 double salary = wage = 9999.99;
 ```
+
 
 (d) Legal, but value will be truncated
