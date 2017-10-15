@@ -130,7 +130,7 @@ int main() {
 	return 0;
 }
 ```
-
+ 
 
 (b) Error: conversion from 'double' to 'int' requires a narrowing conversion
 
@@ -151,7 +151,7 @@ int i = (3.14);
 ```
 double i = {3.14};
 ```
-
+ 
 
 (c) Error: 'wage': undeclared identifier
 
@@ -165,6 +165,6 @@ double salary = 9999.99, wage = salary;
 double wage;
 double salary = wage = 9999.99;
 ```
-
+ 
 
 (d) Legal, but value will be truncated
